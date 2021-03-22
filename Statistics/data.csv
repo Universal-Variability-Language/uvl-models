@@ -1,2 +1,2 @@
-FeatureModel;NumberOfFeatures;NumberOfConstraints
-value1_1;value1_2;value1_3
+FeatureModel;NumberOfFeatures;NumberOfConstraints;FileSize;OriginalFormat;Evolution_Steps
+name1;#features1;#Constrains1;Size1_Kb;format1;#Steps1
