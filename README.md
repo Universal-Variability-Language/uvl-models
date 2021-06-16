@@ -1,9 +1,9 @@
-# Data base for Real-world variability models in UVL
-In this repository, we provide a large variety of publicliy available industrial feature models. Each model is provided in the Universal Variability Language format (UVL). 
+# Database for Real-World Variability Models in UVL
+In this repository, we provide a large variety of publicliy available real-world variability models. Each model is provided in the Universal Variability Language format (UVL). 
 
+We always welcome new proposals for variability models that should be included in our dataset. You can just leave us a message or open a pull request to merge your models.
 
-We always welcome new proposals for feature models that should be included in our dataset. You can just leave us a message or open a pull request to merge your models.
-
+### Variability Models
 |Variability Model |NumberOfModels|NumberOfFeatures|NumberOfConstraints|TreeDepth|NumberOfClauses|ClauseDensity   |
 |------------------|--------------|----------------|-------------------|---------|---------------|----------------|
 |Automotive01      |1             |2513            |2833               |13       |10275          |4.08873855949065|
