@@ -15,11 +15,12 @@ We always welcome new proposals for variability models that should be included i
 |KConfig           |Feature Model |5             |96–1580         |14–3455            |
 |Linux-2.6.33.3    |Feature Model |1             |6467            |3545               |
 |BMD               |Decision Model|1             |7               |0                  |
-|DOPLER ASE        |Decision Model|2             |4               |2                  |
-|DOPLER Tools      |Decision Model|3             |26              |7                  |
-|Mobile Phone DM   |Decision Model|4             |5               |1                  |
-|Online Shop DM    |Decision Model|5             |6               |7                  |
-|Mobile Phone OVM  |OVM Model     |6             |3               |1                  |
-|Online Shop OVM   |OVM Model     |7             |6               |3                  |
-|RFW               |OVM Model     |8             |11              |11                 |
+|DOPLER ASE        |Decision Model|1             |4               |2                  |
+|DOPLER Tools      |Decision Model|1             |26              |7                  |
+|Mobile Phone DM   |Decision Model|1             |5               |1                  |
+|Online Shop DM    |Decision Model|1             |6               |7                  |
+|Mobile Phone OVM  |OVM Model     |1             |3               |1                  |
+|Online Shop OVM   |OVM Model     |1             |6               |3                  |
+|RFW               |OVM Model     |1             |11              |11                 |
+
 
