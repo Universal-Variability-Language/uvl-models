@@ -1,5 +1,5 @@
 # Database for Real-World Variability Models in UVL
-In this repository, we provide a large variety of publicliy available real-world variability models. Each model is provided in the Universal Variability Language format (UVL). 
+In this repository, we provide a large variety of publicliy available real-world variability models. Each model is provided in the Universal Variability Language format (UVL). The variability models are sorted by (1) the type of the original model (i.e., feature/decision/OVM model) and (2) the domain of the variability model (e.g., automotive or operating systems.
 
 We always welcome new proposals for variability models that should be included in our dataset. You can just leave us a message or open a pull request to merge your models.
 
