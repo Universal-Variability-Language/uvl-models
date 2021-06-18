@@ -4,6 +4,8 @@ Original Source: https://github.com/FeatureIDE/FeatureIDE
 
 Original Format: .xml (FeatureIDE)
 
-Publishing Date: 16/05/2021
+UVL Publishing Date: 16/05/2021
+
+Original Publishing Date: -
 
 History: v1-v10 (2017-2018)

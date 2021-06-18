@@ -1,11 +1,2 @@
-Reference: ?
-
-Original Source: ?
-
-Original Format: ?
-
-Publishing Date: 16/05/2021
-
-Feature Models: 3
-
-History: -
+## OVM Models
+This directory contains variability models stored in UVL whose original sources were specified as OVM models.

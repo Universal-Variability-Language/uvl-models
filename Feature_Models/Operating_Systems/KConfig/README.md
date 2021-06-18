@@ -4,7 +4,9 @@ Original Source: https://github.com/AlexanderKnueppel/is-there-a-mismatch
 
 Original Format: .xml (FeatureIDE)
 
-Publishing Date: 16/05/2021
+UVL Publishing Date: 16/05/2021
+
+Original Publishing Date: 08/2017
 
 Feature Models: 5
 
