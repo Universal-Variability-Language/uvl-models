@@ -1,8 +1,8 @@
 Reference: https://doi.org/10.1109/HICSS.2009.460
 
-Original Source: Rick Rabiser, Reinhard Wolfinger, and Paul Grünbacher. 2009. Three-Level Customization of Software Products Using a Product Line Approach. In 2009 42nd Hawaii International Conference on System Sciences. IEEE, 1–10.
+Original Source: - (First time open access in this repository)
 
-Original Format: -
+Original Format: DOPLER decision model
 
 Original Publishing Date: 20/01/2009
 
