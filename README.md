@@ -4,7 +4,7 @@ In this repository, we provide a large variety of publicliy available real-world
 We always welcome new proposals for variability models that should be included in our dataset. You can just leave us a message or open a pull request to merge your models.
 
 ### Variability Models
-|Variability Model |Original Type |Domain            |NumberOfModels|NumberOfFeatures|NumberOfConstraints|
+|Variability Model |Original Type |Domain            |Number of Models|Number of Features|Number of Constraints|
 |------------------|--------------|------------------|--------------|----------------|-------------------|
 |Automotive01      |Feature Model |Automotive        |1             |2513            |2833               |
 |Automotive02      |Feature Model |Automotive        |4             |14010–18616     |666–1369           |
@@ -15,6 +15,7 @@ We always welcome new proposals for variability models that should be included i
 |KConfig           |Feature Model |Operating System  |5             |96–1580         |14–3455            |
 |Linux-2.6.33.3    |Feature Model |Operating System  |1             |6467            |3545               |
 |BMD               |Decision Model|BMD               |1             |7               |0                  |
+|Molding           |Decision Model|Automation        |1             |11              |0                  |
 |DOPLER ASE        |Decision Model|DOPLER            |1             |4               |2                  |
 |DOPLER Tools      |Decision Model|DOPLER            |1             |26              |7                  |
 |Mobile Phone DM   |Decision Model|Devices           |1             |5               |1                  |
