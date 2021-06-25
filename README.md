@@ -14,13 +14,13 @@ We always welcome new proposals for variability models that should be included i
 |Financial Services|Feature Model |Financial Services|10            |557--774        |1001--1148         |
 |KConfig           |Feature Model |Operating System  |5             |96–1580         |14–3455            |
 |Linux-2.6.33.3    |Feature Model |Operating System  |1             |6467            |3545               |
-|BMD               |Decision Model|BMD               |1             |7               |0                  |
-|Molding           |Decision Model|Automation        |1             |11              |0                  |
-|DOPLER ASE        |Decision Model|DOPLER            |1             |4               |2                  |
-|DOPLER Tools      |Decision Model|DOPLER            |1             |26              |7                  |
-|Mobile Phone DM   |Decision Model|Devices           |1             |5               |1                  |
-|Online Shop DM    |Decision Model|Website           |1             |6               |7                  |
-|Mobile Phone OVM  |OVM Model     |Devices           |1             |3               |1                  |
-|Online Shop OVM   |OVM Model     |Website           |1             |6               |3                  |
-|RFW               |OVM Model     |Devices           |1             |11              |11                 |
+|BMD               |Decision Model|Software          |1             |28              |0                  |
+|Molding           |Decision Model|Automation        |1             |116             |0                  |
+|DOPLER ASE        |Decision Model|DOPLER            |1             |109             |96                 |
+|DOPLER Tools      |Decision Model|DOPLER            |1             |50              |15                 |
+|Mobile Phone DM   |Decision Model|Devices           |1             |11              |1                  |
+|Online Shop DM    |Decision Model|Website           |1             |13              |4                  |
+|Mobile Phone OVM  |OVM Model     |Devices           |1             |10              |1                  |
+|Online Shop OVM   |OVM Model     |Website           |1             |14              |5                  |
+|RFW               |OVM Model     |Devices           |1             |37              |11                 |
 
