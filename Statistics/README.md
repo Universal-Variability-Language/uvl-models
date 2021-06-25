@@ -28,7 +28,7 @@ For each provided variability model that was originally a decision model, we pro
 
 ## OVM Models
 
-For each provided variability model that was originally a decision model we provide the following statistics:
+For each provided variability model that was originally an OVM model, we provide the following statistics:
 
 * **Number of Variation Points:** Number of variation points appearing in the OVM model
 * **Number of Variants:** Number of variants induced by the OVM model
