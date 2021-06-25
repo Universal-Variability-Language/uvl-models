@@ -23,7 +23,7 @@ For each provided variability model that was originally a decision model, we pro
 
 * **Number of Decisions:** Number of decisions appearing in the decision model
 * **Number of Rules:** Number of rules appearing in the decision model
-* **Number of Visibility Conditions:**
+* **Number of Visibility Conditions:** Number of visibility constraints appearing in the decision model
 
 
 ## OVM Models
