@@ -14,7 +14,7 @@ For each provided variability model that was originally a feature model, we prov
 * **Average Number of Children:** Average number of children each feature has
 * **Number of Clauses:** Number of clauses after translating the model to CNF (using FeatureIDE's translation)
 * **Number of Literals:** Number of literals after translating the model to CNF (using FeatureIDE's translation)
-* **Clause Density:** Ratio of number of clauses to the number of variables/features
+* **Clause Density:** Ratio of number of clauses to the number of variables/features (using FeatureIDE's translation)
 
 
 ## Decision Models
