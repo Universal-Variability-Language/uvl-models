@@ -1,7 +1,7 @@
-namespace __Root__
+
 
 features
-	__Root__ {abstract}	
+	"__Root__" {abstract}	
 		optional
 			CONFIG_FEATURE_SU_SYSLOG
 			CONFIG_SU

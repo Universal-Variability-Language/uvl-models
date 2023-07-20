@@ -1,26 +1,26 @@
-namespace BerkeleyDb
+
 
 features
-	BerkeleyDb {abstract}	
+	"BerkeleyDb" {abstract}	
 		optional
-			BerkeleyDB {abstract}	
+			"BerkeleyDB" {abstract}	
 				mandatory
-					FPersistency {abstract}	
+					"FPersistency" {abstract}	
 						optional
-							Persistency {abstract}	
+							"Persistency" {abstract}	
 								mandatory
-									FIOFeature {abstract}	
+									"FIOFeature" {abstract}	
 										alternative
-											NIO {abstract}	
+											"NIO" {abstract}	
 												mandatory
-													FNIOType {abstract}	
+													"FNIOType" {abstract}	
 														alternative
 															featureNIO
 															featureChunkedNIO
 
 												optional
 													featureDirectNIO
-											IO {abstract}	
+											"IO" {abstract}	
 												mandatory
 													featureIO
 
@@ -28,31 +28,31 @@ features
 													featureSynchronizedIO
 
 								optional
-									FPersistencyFeatures {abstract}	
+									"FPersistencyFeatures" {abstract}	
 										or
 											featureChecksum
 											featureFileHandleCache
 											featureHandleFullDiscError
 											featureEnvironmentLock
-											Checkpointer {abstract}	
+											"Checkpointer" {abstract}	
 												optional
 													featureCustomizableCheckpointerTime
 													featureCustomizableCheckpointerBytes
 													featureCheckpointerDaemon
-											Cleaner {abstract}	
+											"Cleaner" {abstract}	
 												optional
 													featureLookAheadCache
 													featureCleanerDaemon
-					FBtree {abstract}	
+					"FBtree" {abstract}	
 						optional
-							BTree {abstract}	
+							"BTree" {abstract}	
 								optional
 									featureVerifier
 									featureTreeVisitor
 									featureINCompressor
-									FEvictor {abstract}	
+									"FEvictor" {abstract}	
 										optional
-											Evictor {abstract}	
+											"Evictor" {abstract}	
 												mandatory
 													featureEvictor
 
@@ -62,9 +62,9 @@ features
 					BASE
 
 				optional
-					FLogging {abstract}	
+					"FLogging" {abstract}	
 						optional
-							Logging {abstract}	
+							"Logging" {abstract}	
 								mandatory
 									featureLoggingBase
 
@@ -78,13 +78,13 @@ features
 									featureLoggingInfo
 									featureLoggingConfig
 									featureLoggingSevere
-					FStatistics {abstract}	
+					"FStatistics" {abstract}	
 						optional
-							Statistics {abstract}	
+							"Statistics" {abstract}	
 								mandatory
-									FStatisticsFeatures {abstract}	
+									"FStatisticsFeatures" {abstract}	
 										or
-											EnvStats {abstract}	
+											"EnvStats" {abstract}	
 												mandatory
 													featureStatisticsEnvBase
 
@@ -103,14 +103,14 @@ features
 											featureStatisticsTransaction
 									featureStatisticsBase
 					featureMemoryBudget
-					FConcurrency {abstract}	
+					"FConcurrency" {abstract}	
 						or
 							featureLatch
 							featureFSync
 							featureTransaction
 							dummyFeatureLocking
 							featureCheckLeaks
-					FDbOperation {abstract}	
+					"FDbOperation" {abstract}	
 						or
 							featureDeleteDb
 							featureTruncateDb
