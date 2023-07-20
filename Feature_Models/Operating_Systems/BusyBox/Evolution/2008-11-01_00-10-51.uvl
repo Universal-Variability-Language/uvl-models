@@ -1,7 +1,7 @@
-namespace __Root__
+
 
 features
-	__Root__ {abstract}	
+	"__Root__" {abstract}	
 		optional
 			CONFIG_FEATURE_TOP_SMP_CPU
 			CONFIG_FEATURE_TOP_CPU_GLOBAL_PERCENTS
