@@ -1,17 +1,15 @@
-namespace VIRTUAL_ROOT
-
 features
-	VIRTUAL_ROOT {abstract}	
+	"VIRTUAL_ROOT" {abstract}
 		or
 			GSM_Protocol_1900
 			MP3_Recording
-			Camera_Resolution	
+			"Camera_Resolution"
 				alternative
-					2.1MP
-					5 MP
-					3.1MP
+					"2,1MP"
+					"5 MP"
+					"3,1MP"
 			Camera
-			Audio_Formats	
+			"Audio_Formats"
 				or
 					WAV
 					MP3

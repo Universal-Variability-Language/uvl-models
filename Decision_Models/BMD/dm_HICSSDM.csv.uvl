@@ -1,36 +1,34 @@
-namespace VIRTUAL_ROOT
-
 features
-	VIRTUAL_ROOT {abstract}	
+	"VIRTUAL_ROOT" {abstract}
 		or
-			SV_Solution	
+			"SV_Solution"
 				alternative
 					BMD
 					BMDCRM
-			CV_Documents	
+			"CV_Documents"
 				or
 					"scan new"
 					"import external"
 					archive
 					"read existing"
-			CV_Claims	
+			"CV_Claims"	
 				or
 					journal
 					"task manager"
-			SV	
+			"SV"	
 				alternative
 					"Particular Packages"
 					Solution
-			CV_Customer	
+			"CV_Customer"
 				or
 					mail
 					phone
-			CV	
+			"CV"	
 				or
 					"Document Management"
 					"Claims Management"
 					"Customer Management"
-			SV_Particular_Package	
+			"SV_Particular_Package"
 				or
 					Organizer
 					"Label Printing"
