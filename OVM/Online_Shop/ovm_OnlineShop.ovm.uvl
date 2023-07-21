@@ -1,15 +1,13 @@
-namespace Onlineshop
-
 features
-	Onlineshop {abstract}	
+	"Onlineshop" {abstract}
 		mandatory
-			Payment {abstract}	
+			"Payment" {abstract}
 				alternative
-					Debit Card
-					Credit Card
-			Product Selection {abstract}	
+					"Debit Card"
+					"Credit Card"
+			"Product Selection" {abstract}
 				mandatory
-					Catalog	
+					"Catalog"
 						optional
 							Categories
 							Sort
@@ -18,7 +16,7 @@ features
 					Search
 
 		optional
-			UserManagement {abstract}	
+			"UserManagement" {abstract}
 				or
 					Orders
 					Security

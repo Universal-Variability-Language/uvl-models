@@ -1,16 +1,14 @@
-namespace VIRTUAL_ROOT
-
 features
-	VIRTUAL_ROOT {abstract}	
+	"VIRTUAL_ROOT" {abstract}
 		or
 			OnlineShop
 			Categories
-			Payment	
+			"Payment"
 				alternative
 					DebitCard
 					CreditCard
 			Search
-			UserManagement	
+			"UserManagement"
 				or
 					Orders
 					Security

@@ -1,20 +1,18 @@
-namespace VIRTUAL_ROOT
-
 features
-	VIRTUAL_ROOT {abstract}	
+	"VIRTUAL_ROOT" {abstract}
 		or
-			Messaging	
+			"Messaging"	
 				or
 					SMS
 					MMS
-			Utility Features	
+			"Utility Features"
 				optional
 					Calculator
-					Currency Exchange
-			OS	
+					"Currency Exchange"
+			"OS"	
 				alternative
 					Symbian
 					WinCE
 
 constraints
-	Currency Exchange => Calculator
+	"Currency Exchange" => Calculator
