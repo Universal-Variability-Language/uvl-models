@@ -1,0 +1,11 @@
+features
+    "Brackets()[]{}"
+        optional
+            String "B()"
+            "C()" {Function 'Fun()'}
+            String "B[]"
+            "C[]" {Function 'Fun[]'}
+            String "B{}"
+            "C{}" {Function 'Fun{}'}
+
+    
