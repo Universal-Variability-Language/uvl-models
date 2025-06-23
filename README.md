@@ -31,3 +31,4 @@ We always welcome new proposals for variability models that should be included i
 ### Test Resources
 
 The remaining models are available for testing purposes.
+These test models are intended to evaluate parsing capabilities rather than automated analysis. They cover all different constructs occurring in UVL and include both legal and illegal UVL models.
