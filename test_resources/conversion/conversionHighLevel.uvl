@@ -1,0 +1,8 @@
+features
+            Car
+                or
+                    Engine {Power 150}
+                    Wheels {Type "AllSeason"}
+        constraints
+            Engine.Power > 100
+            Wheels.Type == "AllSeason" or Wheels.Type == "Winter"
