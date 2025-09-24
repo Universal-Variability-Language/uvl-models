@@ -1,6 +1,7 @@
 features
     "Brackets()[]{}"
         optional
+            "Fun()"
             String "B()"
             "C()" {Function 'Fun()'}
             String "B[]"
@@ -8,4 +9,6 @@ features
             String "B{}"
             "C{}" {Function 'Fun{}'}
 
+constraints
+    "Fun()" => "B[]"
     
